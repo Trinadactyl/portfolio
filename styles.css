@@ -59,15 +59,30 @@ header {
   background-image: url("downtown-harbor.JPG");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 30%;
   padding: 12% 0;
   color: black;
   border-bottom: solid black 6px;
+}
+
+#headline {
+  
 }
 
 section {
   position: static;
   margin: auto;
   width: 70%;
+}
+
+/*doesn't float */
+#bio {
+  display: block;
+  float: right;
+}
+
+#me {
+  transform: rotate(-90deg);
 }
 
 
