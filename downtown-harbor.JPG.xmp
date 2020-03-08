@@ -10,7 +10,7 @@
    darktable:xmp_version="2"
    darktable:raw_params="0"
    darktable:auto_presets_applied="1"
-   darktable:history_end="5">
+   darktable:history_end="3">
    <darktable:mask_id>
     <rdf:Seq/>
    </darktable:mask_id>
@@ -35,10 +35,10 @@
    <darktable:history>
     <rdf:Seq>
      <rdf:li
-      darktable:operation="flip"
+      darktable:operation="levels"
       darktable:enabled="1"
       darktable:modversion="2"
-      darktable:params="ffffffff"
+      darktable:params="0000000000000000000048420000c842000000003ec8fe3e0000803f"
       darktable:multi_name=""
       darktable:multi_priority="0"
       darktable:blendop_version="8"
@@ -47,34 +47,16 @@
       darktable:operation="colisa"
       darktable:enabled="1"
       darktable:modversion="1"
-      darktable:params="d0cccc3d9899193e285c0f3e"
+      darktable:params="000000000000000010d723bd"
       darktable:multi_name=""
       darktable:multi_priority="0"
       darktable:blendop_version="8"
       darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRxQcA5qIZBA=="/>
      <rdf:li
-      darktable:operation="shadhi"
-      darktable:enabled="1"
-      darktable:modversion="5"
-      darktable:params="000000000000c8420000484208d773c0000048c200000000000048420000c842000048427f000000bd37863500000000"
-      darktable:multi_name=""
-      darktable:multi_priority="0"
-      darktable:blendop_version="8"
-      darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRxQcA5qIZBA=="/>
-     <rdf:li
-      darktable:operation="colisa"
+      darktable:operation="colorcorrection"
       darktable:enabled="1"
       darktable:modversion="1"
-      darktable:params="d0cccc3d9899993e285c0f3e"
-      darktable:multi_name=""
-      darktable:multi_priority="0"
-      darktable:blendop_version="8"
-      darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRxQcA5qIZBA=="/>
-     <rdf:li
-      darktable:operation="shadhi"
-      darktable:enabled="1"
-      darktable:modversion="5"
-      darktable:params="000000000000c8420000484200cd4c3d000048c200000000000048420000c84298995f427f000000bd37863500000000"
+      darktable:params="1a4e2cc1c5e01c410000000000000000f428dc3f"
       darktable:multi_name=""
       darktable:multi_priority="0"
       darktable:blendop_version="8"
