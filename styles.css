@@ -11,6 +11,14 @@ body {
   line-height: 1.5;
 }
 
+h1, h2 {
+  font-family: 'Ovo', serif;
+}
+
+h3, h2, h5 {
+  font-family: 'Muli', sans-serif;
+}
+
 
 footer {
   padding: 2% 0;
@@ -30,6 +38,7 @@ li {
 }
 
 p{
+  font-family: 'Muli', sans-serif;
   color: black;
   font-weight: 100;
   line-height: 2;
