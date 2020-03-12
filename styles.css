@@ -22,7 +22,7 @@ li {
 }
 
 .links{
-  padding: 10px;
+  padding: 5px;
   color: black;
   text-decoration: none;
   border: black 2px solid;
@@ -32,7 +32,6 @@ li {
 p{
   color: black;
   font-weight: 100;
-  padding: 80px;
   line-height: 2;
 }
 
@@ -45,7 +44,7 @@ p{
   display: block;
   list-style: none;
   background-color: #8B5D9C;
-  border-bottom: solid black 6px;
+  border-bottom: solid black 2px;
 }
 
 #menu{
@@ -63,7 +62,7 @@ header {
   padding-top: 2%;
   padding-bottom: 20%;
   color: black;
-  border-bottom: solid black 6px;
+  border-bottom: solid black 2px;
 
 }
 
@@ -73,32 +72,49 @@ header {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  border: solid black 2px
 }
 
 section {
   margin: auto;
-  width: 70%;
+  width: 80%;
   border: solid 5px;
+  height: auto;
 }
 
-/*doesn't float */
-#bio {
-  display: block;
+
+section {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#sum{
+  padding: 10px;
 }
 
 #me {
-  transform: rotate(-90deg);
-  float: left;
+  width: 40%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quiz-pic {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-buttons {
+  padding: 5px;
+  margin: 5px;
+  border: black 2px;
 }
 
 img {
   display: block;
   border: 3px solid;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width: 70%;
 }
 
 .fa{
