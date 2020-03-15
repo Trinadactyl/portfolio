@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif; 
-  font-size: 20px;
+  font-family: 'Muli', sans-serif; 
+  font-size: 15px;
   background-color:#9A79A6;
   margin: 0px;
   text-align: center;
@@ -132,7 +132,7 @@ img {
   padding: 30px;
 }
 
-.cnt {
+/*.cnt {
   size: 10;
 }
 
