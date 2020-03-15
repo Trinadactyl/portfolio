@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Muli', sans-serif; 
-  font-size: 15px;
+  font-size: 18px;
   background-color:#9A79A6;
   margin: 0px;
   text-align: center;
@@ -97,12 +97,15 @@ section {
   padding: 10px;
 }
 
+/*I want the photo and bio paragraph (#sum) 
+to sit next to each other!!! */
+
 #sum{
   padding: 10px;
 }
 
 #me {
-  width: 40%;
+  width: 30%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
