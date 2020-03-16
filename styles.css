@@ -78,7 +78,6 @@ header {
   padding-bottom: 20%;
   color: black;
   border-bottom: solid black 2px;
-
 }
 
 #headline {
@@ -93,12 +92,8 @@ header {
 section {
   margin: auto;
   width: 80%;
-  border: solid 5px;
+  border: solid 4px;
   height: auto;
-}
-
-
-section {
   margin-top: 10px;
   padding: 10px;
 }
