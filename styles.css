@@ -5,18 +5,24 @@
 body {
   font-family: 'Muli', sans-serif; 
   font-size: 18px;
-  background-color:#9A79A6;
+  background-color:#602C73;
   margin: 0px;
   text-align: center;
   line-height: 1.5;
 }
 
 h1, h2 {
+  color: ivory;
   font-family: 'Ovo', serif;
 }
 
-h3, h2, h5 {
+h2, h3, h4, h5 {
+  color: ivory;
   font-family: 'Muli', sans-serif;
+}
+
+h5 {
+  color: #9A79A6;
 }
 
 
@@ -31,15 +37,15 @@ li {
 
 .links{
   padding: 5px;
-  color: black;
+  color: ivory;
   text-decoration: none;
   border: black 2px solid;
-  background-color: #7C6B82;
+  background-color: black;
 }
 
 p{
   font-family: 'Muli', sans-serif;
-  color: black;
+  color: ivory;
   font-weight: 100;
   line-height: 2;
 }
@@ -76,7 +82,7 @@ header {
 }
 
 #headline {
-  color:white;
+  color:ivory;
   background-color:rgba(96, 44, 115, 0.39);
   width: 70%;
   margin-left: auto;
@@ -133,6 +139,7 @@ img {
   text-align: center;
   font-size: 30px;
   padding: 30px;
+  color: #9A79A6;
 }
 
 /*.cnt {
