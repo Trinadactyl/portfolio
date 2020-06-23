@@ -5,13 +5,13 @@
 body {
   font-family: 'Muli', sans-serif; 
   font-size: 18px;
-  background-color:#602C73;
+  background-color: #B8C4BB;
   margin: 0px;
   text-align: center;
   line-height: 1.5;
 }
 
-main {
+#hero {
   background-image: url("./pictures/downtown-harbor.JPG");
   background-repeat: no-repeat;
   position: absolute;
@@ -31,13 +31,11 @@ main {
 .nav-bar {
   width: 100%;
   height: 50px;
-  padding: 5px;
   position: static;
   overflow: auto;
   display: block;
   list-style: none;
   background-color: #00635D;
-  border-bottom: solid thin #000501;
 }
 
 .nav-link {
@@ -64,7 +62,6 @@ a {
 
 #wix {
   text-decoration: none;
-  color: #5C164E;
 }
 
 #wix:hover {
@@ -73,54 +70,51 @@ a {
 
 h1, h2, #wix {
   font-family: 'Ovo', serif;
+  color: #5C164E;
 }
 
 h3, h4, h5 {
-  color: ivory;
   font-family: 'Muli', sans-serif;
-}
-
-h5 {
-  color: #9A79A6;
-}
-
-footer {
-  padding: 2% 0;
-  background-color:#8B5D9C;
-}
-
-li {
-  padding: 10px;
 }
 
 p {
   font-family: 'Muli', sans-serif;
-  color: ivory;
-  font-weight: 100;
+  color: #5C164E;
+  font-weight: bolder;
+  font-size: 20px;
   line-height: 2;
 }
 
-section {
-  margin: auto;
-  width: 80%;
-  border: solid 4px;
-  height: auto;
-  margin-top: 10px;
-  padding: 10px;
+#bio {
+  width: fit-content;
+  margin:10px;
 }
 
-/*I want the photo and bio paragraph (#sum) 
-to sit next to each other!!! */
+.section-content {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-#sum{
+#bio p {
+  width: 60%;
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#smiley {
+  width: auto;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #me {
-  width: 30%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
+  margin: auto;
+  border-radius: 20px;
+  float: right;
 }
 
 #quiz-pic {
@@ -136,11 +130,6 @@ to sit next to each other!!! */
   border: black 2px;
 }
 
-img {
-  display: block;
-  border: 3px solid;
-}
-
 .fa{
   text-align: center;
   font-size: 30px;
@@ -148,14 +137,7 @@ img {
   color: #9A79A6;
 }
 
-/*.cnt {
-  size: 10;
+footer {
+  padding: 2% 0;
+  background-color:#8B5D9C;
 }
-
-/* IDK if I want this here!
-@media only screen and (min-width: 500px){
-  .contact-for-mobile{
-    display: none;
-  }
-}
-*/
