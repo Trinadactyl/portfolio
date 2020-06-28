@@ -86,6 +86,7 @@ p {
 }
 
 #bio {
+  position: relative;
   width: fit-content;
   margin:10px;
 }
@@ -117,17 +118,41 @@ p {
   float: right;
 }
 
-#quiz-pic {
-  width: 50%;
-  height: auto;
+#projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-and-tech {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.techstack {
   margin-left: auto;
   margin-right: auto;
+}
+
+.project img {
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width:100%;
+  height: auto;
 }
 
 .project-buttons {
   padding: 5px;
   margin: 5px;
-  border: black 2px;
+}
+
+.project-buttons a:hover {
+  color: #B8C4BB;
+  background-color: #00635D;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .fa{
