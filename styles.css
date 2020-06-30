@@ -19,7 +19,26 @@ body {
   width: 100%;
   height: 100%;
   color: black;
+  top: 50px;
 }
+
+@media only screen and (max-width: 400px) {
+  #hero {
+   width: 400px;
+  }
+  
+  /* sos, trying to resolve white space under 400px */
+  #nav-bar {
+    min-width: 400;
+  }
+ 
+}
+
+#bio {
+  position: relative;
+  top: 800px;
+}
+
 
 #headline {
   color: #5C164E;
@@ -28,12 +47,9 @@ body {
   margin-right: auto;
 }
 
-.nav-bar {
+#nav-bar {
   width: 100%;
   height: 50px;
-  position: static;
-  overflow: auto;
-  display: block;
   list-style: none;
   background-color: #00635D;
 }
@@ -85,11 +101,6 @@ p {
   line-height: 2;
 }
 
-#bio {
-  position: relative;
-  width: fit-content;
-  margin:10px;
-}
 
 .section-content {
   width: fit-content;
@@ -119,6 +130,8 @@ p {
 }
 
 #projects {
+  position: relative;
+  top: 880px;
   display: flex;
   flex-direction: column;
 }

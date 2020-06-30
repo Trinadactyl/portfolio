@@ -10,9 +10,9 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav id="nav-bar">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="./bio.html" class="nav-link">Bio</a>
+        <a href="#bio" class="nav-link">Bio</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#contact" class="nav-link">Contact</a>
     </nav>
@@ -25,20 +25,133 @@
             </div> 
         </header>
     
-        <section id="projects">
-          <!-- <h3>Projects</h3>
-          <h4>Fashion Quiz App</h4>
-          <h5>Used: JavaScript | jQuery | HTML5 | CSS</h5>
-          <p>In this project, I collaborated with a colleague to create a fun interactive quiz application using JavaScript, Html, and Css
-            to test the user's fashion trivia knowledge. The app returns feedback each time the user selects an answer, and tracks their score and progress throughout the quiz!
-          </p>
-          <img id="quiz-pic" src="./pictures/quiz-app-pic-minified.png" alt="screenshot of quiz app">
-            <div class="project-buttons">
-                <a target="_blank" class="links" href="https://thinkful-ei-macaw.github.io/quiz-app-Dasha-Trina/">Demo</a> 
-                <a target="_blank" class="links" href="https://github.com/thinkful-ei-macaw/quiz-app-Dasha-Trina">GitHub Repo</a>  
-            </div>       -->
-        </section>
+        <section id="bio">
+            <h1>Bio</h1>
+            <div class="section-content">
+              <img id="smiley" src="./pictures/me-smiling-resize.jpg" alt="a happy Tri">
+              <p>  Growing up around the world, I have always been well accustomed to cultural diversity and rapid change. When I was
+              introduced to the tech community, I saw not only an opportunity to contribute to some          
+              of the world's leading innovations, I also saw a clear path to creative and geographical freedom.    
+              </p>                       
+            </div>
+            
+            <div class="section-content">
+              <p> I'm a fullstack web developer on an everlasting learning journey, who's excited to join a team of other talented programmers. 
+                Next to coding, I am also an enthusiastic photographer and music junkie. I can be found at my local concert venue, inches from 
+                the stage, firing away on my Canon 77D. Or hiking the trails of a State park, or natural reserve, camera-ready.</p>
+              <img id="me" src="./pictures/me-resize.jpg" alt="doing what I do"> 
+            </div>
+          </section>
 
+          <section id="projects">
+            <h1>My Work</h1>
+            <div class="project">
+              <h2>Trouvaille</h2>
+              <h3>A road trip planner that recieves the users interests and trip details, and maps out an itinerary.</h3>
+              <div class="project-buttons">
+                <a target="_blank" class="links" href="https://trouvaille.now.sh/">Live App</a> 
+                <a target="_blank" class="links" href="https://github.com/Trinadactyl/trouvaille-client">GitHub Repo</a>  
+              </div>
+        
+              <div class="img-and-tech">
+                <img src="./pictures/trouvaille-small.png" alt="Trouvaille app" />
+                <div class="techstack">
+                  <h4>Tech:</h4>
+                  <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>Sass</li>
+                    <li>Babel</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>Mocha</li>
+                    <li>Chai</li>
+                    <li>PostgreSQL</li>
+                    <li>Nodemon</li>           
+                  </ul>
+                </div>
+              </div>     
+            </div>
+        
+            <div class="project">
+              <h2>Melodacity</h2>
+              <h3>A musical instrument that allows users to explore chord theory and create simple melodies.</h3>
+              <div class="project-buttons">
+                <a target="_blank" class="links" href="https://melodacity.now.sh/">Live App</a> 
+                <a target="_blank" class="links" href="https://github.com/Trinadactyl/melodacity-client">GitHub Repo</a>  
+              </div>
+        
+              <div class="img-and-tech">
+                <img src="./pictures/melodacity-small.png" alt="Melodacity app" />
+                <div class="techstack">
+                  <h4>Tech:</h4>
+                  <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <!-- <li>Mocha</li>
+                    <li>Chai</li> -->
+                    <li>PostgreSQL</li>
+                    <li>Nodemon</li>
+                  </ul>
+                </div>
+              </div>      
+            </div>
+        
+            <div class="project">
+              <h2>Spaced Repetition</h2>
+              <h3>A dutch learning tool which uses the spaced repetition method.</h3>
+              <div class="project-buttons">
+                <a target="_blank" class="links" href=" https://spaced-repetition-ruddy.now.sh">Live App</a> 
+                <a target="_blank" class="links" href="https://github.com/Trinadactyl/spaced-repetition-client-trina-andrew">GitHub Repo</a>  
+              </div>
+        
+              <div class="img-and-tech">
+                <img src="./pictures/Spaced-repetition-small.png" alt="Spaced Repetition app" />
+                <div class="techstack">
+                  <h4>Tech:</h4>
+                  <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>Sass</li>      
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <!-- <li>Mocha</li>
+                    <li>Chai</li> -->
+                    <li>Nodemon</li>
+                  </ul>
+                </div>
+              </div>      
+            </div>
+        
+            <div class="project">
+              <h2>Fashion Quiz App</h2>
+              <h3>An interactive quiz that tracks the user's score and provides immedate feedback.</h3>
+              <div class="project-buttons">
+                <a target="_blank" class="links" href="https://thinkful-ei-macaw.github.io/quiz-app-Dasha-Trina/">Live App</a> 
+                <a target="_blank" class="links" href="https://github.com/thinkful-ei-macaw/quiz-app-Dasha-Trina">GitHub Repo</a>  
+              </div>
+        
+              <div class="img-and-tech">
+                <img id="quiz-pic" src="./pictures/quiz-app-pic-minified.png" alt="screenshot of quiz app">
+                <div class="techstack">
+                  <h4>Tech:</h4>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>jQuery</li>
+                    <li>CSS</li>
+                  </ul>
+                </div>
+              </div>  
+            </div>
+              
+          </section>
+        
 
 
         <!-- <section id="contact">
