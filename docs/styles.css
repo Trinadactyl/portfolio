@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +7,7 @@
 body {
   font-family: 'Muli', sans-serif; 
   font-size: 18px;
-  background-color: #B8C4BB;
+  background-color:#B8C4BB;
   margin: 0px;
   text-align: center;
   line-height: 1.5;
@@ -27,6 +29,10 @@ body {
   position: relative;
   top: 110vh;
   padding-top: 4%;
+  background-color: #9b287a3f;
+  padding-top: 4%;
+  border-radius: 20px;
+  margin: 1%;
 }
 
 #projects {
@@ -39,10 +45,36 @@ body {
 
 #contact {
   position: relative;
+  height: 100vh;
   top: 110vh;
   margin-bottom: 2em;
   padding-top: 4%;
+  background-color: #9b287a3f;
+  /* padding: 1%; */
+  border-radius: 20px;
+  margin: 1%
 }
+
+/* ******* do a cool animation here w/ text!! ********/
+#headline {
+  position: relative;
+  top: 40px;
+  color:#5C164E;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #9b287a3f;
+  padding: 2px; */
+  /* border: 2px solid #9B287B; */
+  border-radius: 20px; padding: 2px;
+  animation-name: fizzle;
+  animation-duration: 1s;
+}
+
+/* 
+@keyframes fizzle {
+  0% {background-color: transparent;}
+} */
 
 @media only screen and (max-width: 400px) {
   #hero {
@@ -55,16 +87,6 @@ body {
   }
 }
 
-
-
-
-#headline {
-  color: #5C164E;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #nav-bar {
   position: fixed;
   top: 0px;
@@ -75,7 +97,7 @@ body {
   background-color: #00635D;
   box-shadow: -5px 5px 10px black;
   animation-name: slide;
-  animation-duration: 1s;
+  animation-duration: .7s;
 }
 @keyframes slide {
   0% {height: 0px}
@@ -215,7 +237,7 @@ footer {
   position: relative;
   background-color:#8B5D9C;
   font-size: small;
-  top: 100vh;
-  /* margin-top: 940px; */
-  height: auto;
+  top: 110vh;
+  width: 100%;
+  height: 2.5rem
 }
