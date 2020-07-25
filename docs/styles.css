@@ -17,8 +17,8 @@ body {
   width: 100%;
   height: 55px;
   list-style: none;
-  background-color: #4C1E4F;
-  box-shadow: 50px, -10px, black;
+  background-color: #23F0C7;
+  box-shadow: 2px 2px 20px #474747;
   z-index: 1;
 }
 
@@ -28,7 +28,7 @@ body {
   border-radius: 5px;
   padding-top: 5px;
   margin: 5px;
-  color: #FFFAF0;
+  color: #4C1E4F;
 }
 
 .nav-link:hover {
@@ -40,16 +40,15 @@ body {
 
 #nav-icons .fa {
   float: right;
-  color: #FFFAF0;
+  color: #4C1E4F;
   text-align: center;
   font-size: 20px;
   padding: 10px;
   margin: 5px;
-  /* color: #5C164E; */
 }
 
 #nav-icons .fa:hover {
-  background-color: #5C164E;
+  background-color: #FABC2A;
   margin: 5px;
   border-radius: 5px;
 }
