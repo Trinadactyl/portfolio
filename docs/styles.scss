@@ -1,11 +1,23 @@
+$dark-purple: #4C1E4F;
+$lavender: #B388EB;
+$red: #ED6A5A;
+$yellow: #FABC2A;
+$teal: #23F0C7;
+$off-white: #FFFAF0;
+
+$sub-font: 'Muli', sans-serif;
+$main-font: 'Ovo', serif; 
+
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: $sub-font; 
   font-size: 18px;
-  background-color: #FFFAF0;
+  background-color: $off-white;
   margin: 0px;
   text-align: center;
   line-height: 1.5;
@@ -17,7 +29,7 @@ body {
   width: 100%;
   height: 55px;
   list-style: none;
-  background-color: #4C1E4F;
+  background-color: $dark-purple;
   box-shadow: 50px, -10px, black;
   z-index: 1;
 }
@@ -28,11 +40,10 @@ body {
   border-radius: 5px;
   padding-top: 5px;
   margin: 5px;
-  color: #23F0C7;
+  color: $teal;
 }
-
 .nav-link:hover {
-  background-color: #B388EB;
+  background-color: $lavender;
   border-radius: 5px;
   height: auto;
   padding: 4px;
@@ -68,32 +79,34 @@ body {
 
 @media only screen and (max-width: 400px) {
   #hero {
-    width: 400px;
+   width: 400px;
   }
-
   #nav-bar {
     min-width: 400;
-  }
+  } 
 }
+
 #headline {
-  color: #4C1E4F;
+  color: $dark-purple;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-}
-#headline #wix:hover {
-  color: #FABC2A;
+
+    #wix:hover {
+     color: $yellow ;
+  }
 }
 
 #bio {
   position: relative;
   top: 110vh;
-}
-#bio p {
-  width: 60%;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+
+  p {
+    width: 60%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #smiley {
@@ -129,11 +142,12 @@ body {
   flex-wrap: wrap-reverse;
 }
 
+
 .project img {
   float: left;
   padding-left: 5%;
   padding-right: 5%;
-  max-width: 100%;
+  max-width:100%;
   height: auto;
 }
 
@@ -145,14 +159,17 @@ body {
 .project-buttons {
   padding: 5px;
   margin: 5px;
+  
+   a:hover {
+    color: #B8C4BB;
+    background-color: #00635D;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
 }
-.project-buttons a:hover {
-  color: #B8C4BB;
-  background-color: #00635D;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
-}
+
+
 
 #contact {
   position: relative;
@@ -167,20 +184,20 @@ a {
 }
 
 p {
-  font-family: "Muli", sans-serif;
-  color: #4C1E4F;
+  font-family: $sub-font;
+  color:$dark-purple;
   font-weight: bolder;
   font-size: 20px;
   line-height: 2;
 }
 
 h1, h2, #wix {
-  font-family: "Ovo", serif;
-  color: #4C1E4F;
+  font-family: $main-font;
+  color: $dark-purple;
 }
 
 h3, h4, h5 {
-  font-family: "Muli", sans-serif;
+  font-family: $sub-font;
 }
 
 .section-content {
@@ -189,7 +206,7 @@ h3, h4, h5 {
   flex-wrap: wrap;
 }
 
-.fa {
+.fa{
   text-align: center;
   font-size: 30px;
   padding: 30px;
@@ -198,11 +215,9 @@ h3, h4, h5 {
 
 footer {
   position: relative;
-  background-color: #8B5D9C;
+  background-color:#8B5D9C;
   font-size: small;
   top: 100vh;
   /* margin-top: 940px; */
   height: auto;
 }
-
-/*# sourceMappingURL=styles.css.map */
