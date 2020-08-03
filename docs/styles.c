@@ -1,22 +1,11 @@
-$dark-purple: #4C1E4F;
-$lavender: #B388EB;
-$red: #ED6A5A;
-$yellow: #FABC2A;
-$teal: #23F0C7;
-$off-white: #FFFAF0;
-
-$sub-font: 'Muli', sans-serif;
-$main-font: 'Ovo', serif; 
-
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: $sub-font; 
+  font-family: "Muli", sans-serif;
   font-size: 18px;
-  background-color: $off-white;
+  background-color: #FFFAF0;
   margin: 0px;
   text-align: center;
   line-height: 1.5;
@@ -28,7 +17,7 @@ body {
   width: 100%;
   height: 45px;
   list-style: none;
-  background-color: $teal;
+  background-color: #23F0C7;
   box-shadow: 2px 2px 20px #474747;
   z-index: 1;
 }
@@ -39,10 +28,11 @@ body {
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
-  color: $dark-purple;
+  color: #4C1E4F;
 }
+
 .nav-link:hover {
-  background-color: $yellow;
+  background-color: #FABC2A;
   border-radius: 5px;
   height: auto;
   padding: 4px;
@@ -50,7 +40,7 @@ body {
 
 #nav-icons .fa {
   float: right;
-  color: $dark-purple;
+  color: #4C1E4F;
   text-align: center;
   font-size: 20px;
   padding: 10px;
@@ -58,10 +48,9 @@ body {
 }
 
 #nav-icons .fa:hover {
-  background-color: $yellow;
+  background-color: #FABC2A;
+  margin: 5px;
   border-radius: 5px;
-  height: auto;
-  padding: 4px;
 }
 
 #hero {
@@ -78,39 +67,32 @@ body {
 
 @media only screen and (max-width: 400px) {
   #hero {
-   width: 400px;
+    width: 400px;
   }
+
   #nav-bar {
     min-width: 400;
-  } 
+  }
 }
-
 #headline {
-  color: $dark-purple;
+  color: #4C1E4F;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-
-    #wix:hover {
-     color: $yellow ;
-  }
+}
+#headline #wix:hover {
+  color: #FABC2A;
 }
 
 #bio {
   position: relative;
   top: 110vh;
-  background: #b388eb6b;
-  margin: 30px;
-  padding-top: 10px;
-  border-radius: 10px;
-
-  p {
-    width: 60%;
-    padding: 10px;
-    font-size: 12;
-    margin-left: auto;
-    margin-right: auto;
-  }
+}
+#bio p {
+  width: 60%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #smiley {
@@ -130,25 +112,8 @@ body {
 #projects {
   position: relative;
   top: 110vh;
-  
-}
-
-#container {
-  // margin-left: auto;
-  // margin-right: auto;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.project {
-  margin: 1%;
-  border-radius: 10px;
-  border: solid black;
-  width: 300px;
-  height: auto;
-
+  flex-direction: column;
 }
 
 .img-and-tech {
@@ -162,13 +127,12 @@ body {
   flex-direction: row;
   flex-wrap: wrap-reverse;
 }
-
 
 .project img {
   float: left;
   padding-left: 5%;
   padding-right: 5%;
-  max-width:100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -180,22 +144,18 @@ body {
 .project-buttons {
   padding: 5px;
   margin: 5px;
-  
-   a:hover {
-    color: #B8C4BB;
-    background-color: #00635D;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-  }
 }
-
-
+.project-buttons a:hover {
+  color: #B8C4BB;
+  background-color: #00635D;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
 
 #contact {
   position: relative;
   top: 110vh;
-  padding-top: 200px;
   height: 100vh;
   margin-bottom: 2em;
 }
@@ -206,20 +166,20 @@ a {
 }
 
 p {
-  font-family: $sub-font;
-  color:$dark-purple;
+  font-family: "Muli", sans-serif;
+  color: #4C1E4F;
   font-weight: bolder;
   font-size: 20px;
   line-height: 2;
 }
 
 h1, h2, #wix {
-  font-family: $main-font;
-  color: $dark-purple;
+  font-family: "Ovo", serif;
+  color: #4C1E4F;
 }
 
 h3, h4, h5 {
-  font-family: $sub-font;
+  font-family: "Muli", sans-serif;
 }
 
 .section-content {
@@ -228,7 +188,7 @@ h3, h4, h5 {
   flex-wrap: wrap;
 }
 
-.fa{
+.fa {
   text-align: center;
   font-size: 30px;
   padding: 30px;
@@ -237,11 +197,12 @@ h3, h4, h5 {
 
 footer {
   position: relative;
-  background-color: $dark-purple;
+  background-color: #4C1E4F;
   font-size: small;
   top: 110vh;
   height: 40px;
   padding-top: 10px;
-  color: $off-white;
-  box-shadow: 2px -2px 10px #474747;
+  color: #FFFAF0;
 }
+
+/*# sourceMappingURL=styles.c.map */

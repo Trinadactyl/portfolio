@@ -15,7 +15,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 55px;
+  height: 45px;
   list-style: none;
   background-color: #23F0C7;
   box-shadow: 2px 2px 20px #474747;
@@ -26,7 +26,7 @@ body {
   float: left;
   height: auto;
   border-radius: 5px;
-  padding-top: 5px;
+  padding: 5px;
   margin: 5px;
   color: #4C1E4F;
 }
@@ -49,8 +49,9 @@ body {
 
 #nav-icons .fa:hover {
   background-color: #FABC2A;
-  margin: 5px;
   border-radius: 5px;
+  height: auto;
+  padding: 4px;
 }
 
 #hero {
@@ -61,7 +62,7 @@ body {
   width: 100%;
   height: 100%;
   color: black;
-  top: 55px;
+  top: 45px;
   z-index: -1;
 }
 
@@ -87,10 +88,15 @@ body {
 #bio {
   position: relative;
   top: 110vh;
+  background: #b388eb6b;
+  margin: 30px;
+  padding-top: 10px;
+  border-radius: 10px;
 }
 #bio p {
   width: 60%;
   padding: 10px;
+  font-size: 12;
   margin-left: auto;
   margin-right: auto;
 }
@@ -112,8 +118,21 @@ body {
 #projects {
   position: relative;
   top: 110vh;
+}
+
+#container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  margin: 1%;
+  border-radius: 10px;
+  border: solid black;
+  width: 300px;
+  height: auto;
 }
 
 .img-and-tech {
@@ -156,6 +175,7 @@ body {
 #contact {
   position: relative;
   top: 110vh;
+  padding-top: 200px;
   height: 100vh;
   margin-bottom: 2em;
 }
@@ -203,6 +223,7 @@ footer {
   height: 40px;
   padding-top: 10px;
   color: #FFFAF0;
+  box-shadow: 2px -2px 10px #474747;
 }
 
 /*# sourceMappingURL=styles.css.map */
