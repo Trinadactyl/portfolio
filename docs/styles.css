@@ -4,7 +4,7 @@
 
 body {
   font-family: "Muli", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #FFFAF0;
   margin: 0px;
   text-align: center;
@@ -149,10 +149,9 @@ body {
 
 .project img {
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
   max-width: 100%;
   height: auto;
+  padding-bottom: 10px;
 }
 
 .techstack {
@@ -164,9 +163,12 @@ body {
   padding: 5px;
   margin: 5px;
 }
+.project-buttons a {
+  color: #4C1E4F;
+}
 .project-buttons a:hover {
-  color: #B8C4BB;
-  background-color: #00635D;
+  color: #4C1E4F;
+  background-color: #FABC2A;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
