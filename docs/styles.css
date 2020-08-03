@@ -90,7 +90,7 @@ body {
   top: 110vh;
   background: #b388eb6b;
   margin: 30px;
-  padding-top: 10px;
+  padding-top: 5px;
   border-radius: 10px;
 }
 #bio p {
@@ -117,7 +117,11 @@ body {
 
 #projects {
   position: relative;
+  background: #b388eb6b;
+  padding-top: 5px;
   top: 110vh;
+  margin: 30px;
+  border-radius: 10px;
 }
 
 #container {
@@ -129,10 +133,28 @@ body {
 
 .project {
   margin: 20px;
+  padding: 10px;
   border-radius: 10px;
   border: solid black;
   width: 350px;
   height: auto;
+}
+.project a:hover {
+  color: #4C1E4F;
+  background-color: #FABC2A;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.project-buttons {
+  padding: 5px;
+  margin: 5px;
+  height: auto;
+}
+.project-buttons a {
+  top: -5px;
+  color: #4C1E4F;
 }
 
 .img-and-tech {
@@ -157,21 +179,6 @@ body {
 .techstack {
   margin-left: auto;
   margin-right: auto;
-}
-
-.project-buttons {
-  padding: 5px;
-  margin: 5px;
-}
-.project-buttons a {
-  color: #4C1E4F;
-}
-.project-buttons a:hover {
-  color: #4C1E4F;
-  background-color: #FABC2A;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
 }
 
 #contact {

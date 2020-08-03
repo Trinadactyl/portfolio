@@ -101,8 +101,9 @@ body {
   top: 110vh;
   background: #b388eb6b;
   margin: 30px;
-  padding-top: 10px;
+  padding-top: 5px;
   border-radius: 10px;
+
 
   p {
     width: 60%;
@@ -129,8 +130,11 @@ body {
 
 #projects {
   position: relative;
-  top: 110vh;
-  
+  background: #b388eb6b;
+  padding-top: 5px;
+  top: 110vh; 
+  margin: 30px;
+  border-radius: 10px;
 }
 
 #container {
@@ -142,12 +146,33 @@ body {
 
 .project {
   margin: 20px;
+  padding: 10px;
   border-radius: 10px;
   border: solid black;
   width: 350px;
   height: auto;
 
+  a:hover {
+    color: $dark-purple;
+    background-color: $yellow;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    }
 }
+
+.project-buttons {
+  // position: relative;
+  padding: 5px;
+  margin: 5px;
+  height: auto;
+
+  a {
+    top: -5px;
+    color: $dark-purple;
+  }
+}
+
 
 .img-and-tech {
   display: flex;
@@ -173,24 +198,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.project-buttons {
-  padding: 5px;
-  margin: 5px;
-
-  a {
-    color: $dark-purple;
-  }
-  
-  a:hover {
-  color: $dark-purple;
-  background-color: $yellow;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
-  }
-}
-
 
 
 #contact {
