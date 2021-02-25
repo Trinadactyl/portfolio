@@ -4,15 +4,17 @@
     <title>Trina's Portfolio</title>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width">
+    <!-- <script type='module' src="script.js"></script> -->
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic%7CMuli%7COpen+Sans:600%7COvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gentium+Basic%7CMuli%7COpen+Sans:600%7COvo&display=swap" >
     <link rel="stylesheet" type="text/css" href="styles.css">
+    
 </head>
 <body>
     <nav id="nav-bar">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="#bio" class="nav-link">Bio</a>
+        <a href="#bio" class="nav-link">About Me</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#contact" class="nav-link">Contact</a>
         <div id="nav-icons">
@@ -22,16 +24,32 @@
         </div>
     </nav>
 
-    <main >
-        <header id="hero">
+    <main>
+        <section id="hero">
+            <!-- <canvas id="fun" width="1000" height="750"></canvas> -->
             <div id="headline">
-                <h1>I'm Trina </h1>
-                <h2>Passionate web developer | <a target="_blank" id="wix" href="http://trinamcleary.wix.com/RabidSnaps">photographer</a> | globe trotter</h2>  
+                <h1>Hello! I'm Trina</h1>
+                <h2>Web Designer and Full-stack Developer</h2>  
             </div> 
-        </header>
+            <script src='../p5.js'> 
+                const canvas = document.getElementById('fun');
+                const hero = document.getElementById('hero')
+
+                function draw() {
+                    // if (mouseIsPressed) {
+                    //     fill(0);
+                    // } else {
+                    //     fill(255);
+                    // }
+                ellipse(mouseX, mouseY, 80, 80);
+                }
+        </script>
+        </section>
+
+
     
         <section id="bio">
-            <h1>Bio</h1>
+            <h1>About Me</h1>
             <img id="smiley" src="./pictures/me-smiling-resize.jpg" alt="a happy Tri">
             <div class="section-content">            
               <p>  Growing up around the world, I have always been well accustomed to cultural diversity and rapid change. When I was
@@ -44,87 +62,34 @@
             </div>
         </section>
 
-
-
+        <!-- ******************************************************** -->
         <section id="projects">
             <h1>My Work</h1>
-            <div id='container'>
 
-                <div class="project">
-                <h2>Trouvaille</h2>
+            <div class="project">
+                <img src="./pictures/trouvaille-small.png" alt="Trouvaille">
+                <div class="info">
+                  <h2>Trouvaille</h2> 
+                  <p>what is this</p> 
+                  <a href="https://trouvaille.now.sh" target="blank">Live</a>
+                  <a href="https://github.com/Trinadactyl/trouvaille-client" target="blank">Code</a>
+                </div>
                 
-                <img src="./pictures/trouvaille-small.png" alt="Trouvaille app" />
-
-                <div class="project-buttons">
-                    <a target="_blank" class="links" href="https://trouvaille.now.sh/">Live App</a> 
-                    <a target="_blank" class="links" href="https://github.com/Trinadactyl/trouvaille-client">GitHub Repo</a>  
-                </div>
-            
-                    <h3>A road trip planner that recieves the users interests and trip details, and maps out an itinerary.</h3> 
-
-                    <div class="techstack">
-                        <h4>Tech:</h4>
-                        React, JavaScript, HTML, Sass, Babel, Node.js, Express, Mocha, Chai, PostgreSQL, Nodemon
-                    </div>
-                </div>     
-
-
-        
-                <div class="project">
-                <h2>Melodacity</h2>
-                <img src="./pictures/melodacity-small.png" alt="Melodacity app" />
-                <div class="project-buttons">
-                    <a target="_blank" class="links" href="https://melodacity.now.sh/">Live App</a> 
-                    <a target="_blank" class="links" href="https://github.com/Trinadactyl/melodacity-client">GitHub Repo</a>  
-                </div> 
-                <h3>A musical instrument that allows users to explore chord theory and create simple melodies.</h3>         
-                    
-                <div class="techstack">
-                    <h4>Tech:</h4>
-                    React, JavaScript, HTML, Node.js, Express, PostgreSQL, Nodemon
-                </div>      
-                </div>
-
-
-        
-                <div class="project">
-                <h2>Spaced Repetition</h2>
-                <img src="./pictures/Spaced-repetition-small.png" alt="Spaced Repetition app" />
-                <div class="project-buttons">
-                    <a target="_blank" class="links" href=" https://spaced-repetition-ruddy.now.sh">Live App</a> 
-                    <a target="_blank" class="links" href="https://github.com/Trinadactyl/spaced-repetition-client-trina-andrew">GitHub Repo</a>  
-                </div>
-                <h3>A dutch learning tool which uses the spaced repetition method.</h3>               
-                    
-                <div class="techstack">
-                    <h4>Tech:</h4>
-                    React, JavaScript, HTML, Sass, Node.js, Express, Nodemon
-                </div>      
-                </div>
-
-        
-                <div class="project">
-                <h2>Fashion Quiz App</h2>
-                <img id="quiz-pic" src="./pictures/quiz-app-pic-minified.png" alt="screenshot of quiz app">
-                <div class="project-buttons">
-                    <a target="_blank" class="links" href="https://thinkful-ei-macaw.github.io/quiz-app-Dasha-Trina/">Live App</a> 
-                    <a target="_blank" class="links" href="https://github.com/thinkful-ei-macaw/quiz-app-Dasha-Trina">GitHub Repo</a>  
-                </div>
-                <h3>An interactive quiz that tracks the user's score and provides immedate feedback.</h3>
-                                               
-                    <div class="techstack">
-                    <h4>Tech:</h4>
-                    JavaScript, jQuery, HTML, CSS
-                    </div> 
-                </div>     
-            
-            
             </div>  
+
+            <div class="project">
+                <img src="./pictures/melodacity.png" alt="Melodacity">
+                <div class="info">
+                  <h2>Melodacity</h2> 
+                  <p>what is this</p> 
+                  <a href="https://melodacity.now.sh/" target="blank">Live</a>
+                  <a href="https://github.com/Trinadactyl/melodacity-client" target="blank">Code</a>
+                </div>
+                
+            </div>
+       
+
         </section>
-
-
-
-
 
 
 
@@ -137,6 +102,6 @@
         </section> 
           
     </main>   
-    <footer>Trina McLeary 2020</footer>
+    <footer>Trina McLeary 2021</footer>
 </body>
 </html>

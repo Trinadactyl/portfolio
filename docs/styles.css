@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Ovo", serif;
   font-size: 20px;
   background-color: #FFFAF0;
   margin: 0px;
@@ -55,34 +55,39 @@ body {
 }
 
 #hero {
-  background-image: url("./pictures/downtown-harbor.JPG");
-  background-repeat: no-repeat;
   position: absolute;
+  background-color: #FABC2A;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   color: black;
   top: 45px;
   z-index: -1;
 }
 
-@media only screen and (max-width: 400px) {
-  #hero {
-    width: 400px;
+@media only screen and (max-width: 502px) {
+  #nav-bar a {
+    font-size: 15px;
   }
 
-  #nav-bar {
-    min-width: 400;
+  #nav-bar .fa {
+    font-size: 15px;
   }
 }
 #headline {
   color: #4C1E4F;
   width: 70%;
+  position: relative;
+  top: 70%;
   margin-left: auto;
   margin-right: auto;
 }
-#headline #wix:hover {
-  color: #FABC2A;
+#headline h1 {
+  font-size: 3em;
+  line-height: 0.3em;
+}
+#headline h2 {
+  font-size: 1em;
 }
 
 #bio {
@@ -90,7 +95,7 @@ body {
   top: 110vh;
   background: #b388eb6b;
   margin: 30px;
-  padding-top: 5px;
+  padding-top: 20px;
   border-radius: 10px;
 }
 #bio p {
@@ -118,33 +123,44 @@ body {
 #projects {
   position: relative;
   background: #b388eb6b;
-  padding-top: 5px;
+  padding-top: 20px;
   top: 110vh;
   margin: 30px;
   border-radius: 10px;
 }
 
-#container {
+.project {
+  border-bottom: solid #4C1E4F 4px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
-
-.project {
-  margin: 20px;
-  padding: 10px;
+.project a {
+  color: #4C1E4F;
+  width: 40%;
+  padding: 20px;
+  margin: 5px;
+  border: solid 2px #4C1E4F;
   border-radius: 10px;
-  border: solid black;
-  width: 350px;
-  height: auto;
 }
 .project a:hover {
-  color: #4C1E4F;
-  background-color: #FABC2A;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
+  background-color: #23F0C7;
+  border: groove;
+}
+.project img {
+  width: 50%;
+}
+.project .info {
+  width: 50%;
+}
+
+.project:nth-child(odd) {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .project-buttons {
@@ -155,25 +171,6 @@ body {
 .project-buttons a {
   top: -5px;
   color: #4C1E4F;
-}
-
-.img-and-tech {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-}
-
-.img-and-tech {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-}
-
-.project img {
-  float: left;
-  max-width: 100%;
-  height: auto;
-  padding-bottom: 10px;
 }
 
 .techstack {
@@ -195,20 +192,20 @@ a {
 }
 
 p {
-  font-family: "Muli", sans-serif;
+  font-family: "Ovo", serif;
   color: #4C1E4F;
   font-weight: bolder;
   font-size: 20px;
   line-height: 2;
 }
 
-h1, h2, #wix {
-  font-family: "Ovo", serif;
+h1, h2 {
+  font-family: "Muli", sans-serif;
   color: #4C1E4F;
 }
 
 h3, h4, h5 {
-  font-family: "Muli", sans-serif;
+  font-family: "Ovo", serif;
 }
 
 .section-content {
