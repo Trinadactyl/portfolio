@@ -14,7 +14,7 @@
 <body>
     <nav id="nav-bar">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="#bio" class="nav-link">About Me</a>
+        <a href="#bio" class="nav-link">About</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#contact" class="nav-link">Contact</a>
         <div id="nav-icons">
@@ -26,24 +26,12 @@
 
     <main>
         <section id="hero">
-            <!-- <canvas id="fun" width="1000" height="750"></canvas> -->
+            <!-- **********SIZE THIS!!!!!!********** -->
+            <img src="pictures/dev-portrait.png" alt="" id="cutout">
             <div id="headline">
                 <h1>Hello! I'm Trina</h1>
                 <h2>Web Designer and Full-stack Developer</h2>  
             </div> 
-            <script src='../p5.js'> 
-                const canvas = document.getElementById('fun');
-                const hero = document.getElementById('hero')
-
-                function draw() {
-                    // if (mouseIsPressed) {
-                    //     fill(0);
-                    // } else {
-                    //     fill(255);
-                    // }
-                ellipse(mouseX, mouseY, 80, 80);
-                }
-        </script>
         </section>
 
 
@@ -51,11 +39,7 @@
         <section id="bio">
             <h1>About Me</h1>
             <img id="smiley" src="./pictures/me-smiling-resize.jpg" alt="a happy Tri">
-            <div class="section-content">            
-              <p>  Growing up around the world, I have always been well accustomed to cultural diversity and rapid change. When I was
-              introduced to the tech community, I saw not only an opportunity to contribute to some          
-              of the world's leading innovations, I also saw a clear path to creative and geographical freedom.    
-              </p>                       
+            <div class="section-content">                                      
               <p> I'm a fullstack web developer on an everlasting learning journey, who's excited to join a team of other talented programmers. 
                 Next to coding, I am also an enthusiastic photographer and music junkie. I can be found at my local concert venue, inches from 
                 the stage, firing away on my Canon 77D. Or hiking the trails of a State park, or natural reserve, camera-ready.</p>
@@ -71,8 +55,11 @@
                 <div class="info">
                   <h2>Trouvaille</h2> 
                   <p>what is this</p> 
-                  <a href="https://trouvaille.now.sh" target="blank">Live</a>
-                  <a href="https://github.com/Trinadactyl/trouvaille-client" target="blank">Code</a>
+                  <div class="links">
+                    <a role="button" href="https://trouvaille.now.sh" target="blank">Live</a>
+                    <a role="button" href="https://github.com/Trinadactyl/trouvaille-client" target="blank">Code</a>  
+                  </div>
+                  
                 </div>
                 
             </div>  
@@ -82,8 +69,11 @@
                 <div class="info">
                   <h2>Melodacity</h2> 
                   <p>what is this</p> 
-                  <a href="https://melodacity.now.sh/" target="blank">Live</a>
-                  <a href="https://github.com/Trinadactyl/melodacity-client" target="blank">Code</a>
+                  <div class="links">
+                    <a role="button" href="https://melodacity.now.sh/" target="blank">Live</a>
+                    <a role="button" href="https://github.com/Trinadactyl/melodacity-client" target="blank">Code</a> 
+                  </div>
+                  
                 </div>
                 
             </div>
