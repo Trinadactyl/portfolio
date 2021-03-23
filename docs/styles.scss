@@ -29,6 +29,7 @@ h1, h2{
 
 h3, h4, h5 {
   font-family: $sub-font;
+  color: $dark-purple;
 }
 
 #nav-bar {
@@ -125,10 +126,11 @@ h3, h4, h5 {
   right: 5%;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 
   h1 {
     font-size: 3em;
-    line-height: .3em;
+    line-height: .8em;
   }
   h2 {
     font-size: 1.5em;
@@ -145,19 +147,19 @@ h3, h4, h5 {
 
 #bio {
   position: relative;
-  top: 110vh;
+  top: 108vh;
+  // display: flex;
+  // align-items: center;
   background: #b388eb6b;
   margin: 30px;
-  padding-top: 20px;
+  //padding-top: 20px;
   border-radius: 10px;
+  box-shadow: -2px 2px 10px #474747;
 
-
-  p {
-    width: 60%;
+  h3 {
+    font-size: 3vw;
+    margin: 0px;
     padding: 10px;
-    font-size: 12;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -182,17 +184,21 @@ h3, h4, h5 {
   top: 110vh; 
   margin: 30px;
   border-radius: 10px;
+  box-shadow: -2px 2px 10px #474747;
 }
 
 .project {
-  border: solid $dark-purple 2px;
-  border-radius: 10px;
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  h2 {
+    margin: 0;
+    width: auto;
+  }
 
   a {
     color: $dark-purple;
@@ -208,10 +214,15 @@ h3, h4, h5 {
 
   img {
     width: 50%;
+    border: solid 2px black;
+    border-radius: 10px;
   }
 
   .info {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
   }
 }
 
@@ -234,11 +245,26 @@ h3, h4, h5 {
 }
 
 #contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
-  top: 110vh;
-  padding-top: 200px;
+  top: 115vh;
   height: 100vh;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#contact-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 
 a {
@@ -250,19 +276,13 @@ p {
   font-family: $sub-font;
   color:$dark-purple;
   font-weight: bolder;
-  font-size: 20px;
-  line-height: 2;
-}
-
-.section-content {
-  width: fit-content;
-  display: flex;
-  flex-wrap: wrap;
+  font-size: 2.5vw;
+  line-height: auto;
 }
 
 .fa{
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
   padding: 30px;
   color: #5C164E;
 }
