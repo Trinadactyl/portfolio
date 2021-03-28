@@ -74,12 +74,13 @@ h3, h4, h5 {
 }
 
 #hero {
+  //background-image: url("pictures/downtown-harbor.JPG");
   position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: $yellow;
-  //background-image: url("pictures/downtown-harbor.JPG");
+  
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -103,7 +104,7 @@ h3, h4, h5 {
  
   #nav-icons {
     display: none;
-  } 
+  }
 }
 
 //****at VW 813 and below, make image burst into confetti 
@@ -127,11 +128,11 @@ h3, h4, h5 {
   margin-right: auto;
 
   h1 {
-    font-size: 3em;
-    line-height: .3em;
+    font-size: 5vw;
+    line-height: .5em;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 2.5vw;
   }
 }
 
