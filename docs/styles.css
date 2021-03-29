@@ -18,6 +18,7 @@ h1, h2 {
 
 h3, h4, h5 {
   font-family: "Ovo", serif;
+  color: #4C1E4F;
 }
 
 #nav-bar {
@@ -121,14 +122,14 @@ h3, h4, h5 {
   font-size: 2.5vw;
 }
 
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 1041px) {
   #headline {
     top: 10%;
     width: 90%;
   }
   #headline h1 {
     font-size: 8vw;
-    line-height: 0;
+    line-height: 0.5;
   }
   #headline h2 {
     font-size: 4vw;
@@ -141,15 +142,10 @@ h3, h4, h5 {
   top: 110vh;
   background: #b388eb6b;
   margin: 30px;
-  padding-top: 20px;
+  padding: 20px;
   border-radius: 10px;
-}
-#bio p {
-  width: 60%;
-  padding: 10px;
-  font-size: 12;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 2vw;
+  box-shadow: -2px 2px 10px #474747;
 }
 
 #smiley {
@@ -173,10 +169,10 @@ h3, h4, h5 {
   top: 110vh;
   margin: 30px;
   border-radius: 10px;
+  box-shadow: -2px 2px 10px #474747;
 }
 
 .project {
-  border: solid #4C1E4F 2px;
   border-radius: 10px;
   width: 100%;
   margin-bottom: 10px;
@@ -185,18 +181,29 @@ h3, h4, h5 {
   flex-direction: row;
   justify-content: space-around;
 }
+.project h1 {
+  font-size: 5vw;
+}
+.project h2 {
+  line-height: 0;
+  font-size: 3.5vw;
+}
 .project a {
   color: #4C1E4F;
+  font-size: 3vw;
+  width: 40%;
   padding: 10px;
   margin: 5px;
   border: solid 2px #4C1E4F;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .project a:hover {
   background-color: #23F0C7;
 }
 .project img {
   width: 50%;
+  border: solid #4C1E4F 2px;
+  border-radius: 10px;
 }
 .project .info {
   width: 50%;
@@ -220,6 +227,9 @@ h3, h4, h5 {
   }
 }
 #contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   top: 110vh;
   padding-top: 200px;
@@ -232,11 +242,21 @@ a {
   font-weight: bold;
 }
 
+#contact-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
 p {
   font-family: "Ovo", serif;
   color: #4C1E4F;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 2.5vw;
   line-height: 2;
 }
 
@@ -248,7 +268,7 @@ p {
 
 .fa {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding: 30px;
   color: #5C164E;
 }
