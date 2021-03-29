@@ -125,7 +125,7 @@ h3, h4, h5 {
 
 @media only screen and (max-width: 1041px) {
   #headline {
-    top: 10%;
+    top: 5%;
     width: 90%;
   }
   #headline h1 {
@@ -136,6 +136,11 @@ h3, h4, h5 {
     font-size: 4vw;
     position: relative;
     line-height: 0;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #cutout {
+    width: 80vw;
   }
 }
 #bio {
@@ -165,7 +170,7 @@ h3, h4, h5 {
 
 #projects {
   position: relative;
-  background: #b388eb6b;
+  background-color: #DFCBEF;
   padding-top: 20px;
   top: 110vh;
   margin: 30px;

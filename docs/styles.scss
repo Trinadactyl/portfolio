@@ -1,5 +1,5 @@
 $dark-purple: #4C1E4F;
-$lavender: #B388EB;
+$lavender: #DFCBEF;
 $red: #ED6A5A;
 $yellow: #FABC2A;
 $teal: #23F0C7;
@@ -139,8 +139,9 @@ h3, h4, h5 {
 }
 
 @media only screen and (max-width: 1041px) {
+  
   #headline {
-    top: 10%;
+    top: 5%;
     width: 90%;
     
     h1 {
@@ -153,6 +154,12 @@ h3, h4, h5 {
       position: relative;
       line-height: 0;
     }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #cutout {
+    width: 80vw;
   }
 }
 
@@ -185,7 +192,7 @@ h3, h4, h5 {
 
 #projects {
   position: relative;
-  background: #b388eb6b;
+  background-color: $lavender;
   padding-top: 20px;
   top: 110vh; 
   margin: 30px;
