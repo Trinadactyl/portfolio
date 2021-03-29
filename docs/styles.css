@@ -121,11 +121,19 @@ h3, h4, h5 {
   font-size: 2.5vw;
 }
 
-@media only screen and (max-width: 1097px) {
+@media only screen and (max-width: 1090px) {
   #headline {
     top: 10%;
-    width: 100%;
-    right: 0;
+    width: 90%;
+  }
+  #headline h1 {
+    font-size: 8vw;
+    line-height: 0;
+  }
+  #headline h2 {
+    font-size: 4vw;
+    position: relative;
+    line-height: 0;
   }
 }
 #bio {
