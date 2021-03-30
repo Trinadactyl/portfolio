@@ -144,7 +144,10 @@ h3, h4, h5 {
   }
 }
 #bio {
+  display: flex;
+  align-items: center;
   position: relative;
+  height: 40vh;
   top: 108vh;
   background: #b388eb6b;
   margin: 30px;
@@ -241,7 +244,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: 115vh;
+  top: 113vh;
   height: 100vh;
   margin-bottom: 2em;
   margin-left: auto;
