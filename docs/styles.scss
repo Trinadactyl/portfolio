@@ -107,15 +107,10 @@ h3, h4, h5 {
   }
 }
 
-//****at VW 813 and below, make image burst into confetti 
-//****and headline takes up full width of page
-
 #cutout {
   position: absolute;
   bottom: 0;
-  margin-top: 10%;
   width: 50%;
-  height: auto;
 }
 
 #headline {
@@ -154,6 +149,10 @@ h3, h4, h5 {
       line-height: 0;
     }
   }
+
+  #hero {
+    height: 90vh;
+  }
 }
 
 // @media only screen and (max-width: 750px) {
@@ -180,13 +179,6 @@ h3, h4, h5 {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-}
-
-#me {
-  width: auto;
-  margin: auto;
-  border-radius: 20px;
-  float: right;
 }
 
 #projects {
@@ -262,12 +254,8 @@ h1 {
     align-items: center;
   }
 
-  // #hero {
-  //   height: 80vh;
-  // }
-
   #cutout {
-    width: 90vw;
+    width: 80%;
   }
 }
 
