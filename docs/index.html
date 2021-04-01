@@ -32,6 +32,26 @@
                 <h1>Hello! I'm Trina</h1>
                 <h2>Web Designer and Full-stack Developer</h2>  
             </div> 
+
+            
+            <script>
+                //make dots appear on page wherever clicked
+               const container = document.getElementById("hero");
+
+               function makeDot() {
+                   
+                   const dot = document.createElement("div");
+                   dot.setAttribute('class', 'dot');
+                   container.appendChild(dot);
+
+                   dot.style.top = event.pageY + 'px';
+                   dot.style.left = event.pageX + 'px';
+
+                   console.log('dot made')
+               }
+
+               //document.addEventListener('click', makeDot)
+            </script>
         </section>
 
 

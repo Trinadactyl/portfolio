@@ -78,6 +78,15 @@ h3, h4, h5 {
   z-index: -1;
 }
 
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ED6A5A;
+  width: 1vw;
+  height: 1vw;
+  z-index: 1;
+}
+
 @media only screen and (max-width: 502px) {
   #nav-bar {
     display: flex;
